@@ -1,0 +1,130 @@
+body {
+	font-family:'Playfair Display', serif;
+	font-weight: 300;
+	color: #2F4073;
+} 
+
+header {
+	padding: 30px;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.col-sm-8 {
+	display: inline;
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li{ 
+	display: inline-block;
+	margin-left: 10px; 
+	font-size: 20px;
+}
+
+.text-center {
+	display: block;
+}
+
+.jumbotron {
+	align-items: center;
+	display: flex;
+	background-image: url(https://images.unsplash.com/photo-1537811465496-6c38a51d2d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+	background-size:cover;
+	background-position: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 490px;
+	color: #061739;
+}
+
+.text-block{
+	border: 2px #2F4073;
+	border-radius: 15px;
+	width: 380px;
+	height: 125px;
+	background: rgba(255, 255, 255, .75);
+	padding-top: 22px;
+	margin: auto;
+}
+
+section. h3{
+	padding-top: 20px;
+}
+
+
+.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: white;
+  text-shadow: none;
+  background-color: #2F4073;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+img{
+	width: 450px;
+	height: 300px;
+}
+
+.item{
+	text-align:center;
+	display: inline-block;
+	width: 450px;
+}
+
+row-1{
+	margin-top: 30px;
+}
+
+.caption {
+	display:block;
+	padding: 10px;
+}
+
+.col-xs-6{
+	padding: 30px;
+	margin: auto;
+	display: flex;
+}
+
+a{
+	color: #2F4073;
+}
+
+.bottom{
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+footer{
+	background-color: grey;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-size: cover;
+}
+
+footer p{
+	text-align:left;
+}
+
+
+
+
+
